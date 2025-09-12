@@ -72,7 +72,7 @@ export function Dashboard() {
         <div className="relative">
           <input
             className="w-full sm:w-[37.5rem] h-[5rem] border-gray-200 rounded-md shadow-lg border pr-12 py-2 px-3 text-base sm:text-lg"
-            value={input}
+            value={input} placeholder='ask About Weather'
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => {
               if (e.key === 'Enter') submitHandler();
