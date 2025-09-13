@@ -1,5 +1,5 @@
 interface uploadProps {
-    onClick?: () => void;
+  onClick?: () => void;
 }
 
 export function Upload(props: uploadProps) {
@@ -10,7 +10,7 @@ export function Upload(props: uploadProps) {
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       stroke="currentColor"
-      className="size-6 bg-black text-white rounded-sm cursor-pointer"
+      className="w-6 h-6 bg-black rounded-sm cursor-pointer text-white"
       onClick={props.onClick}
     >
       <path
